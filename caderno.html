@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caderno Online</title>
+    <link rel="stylesheet" href="estilos/caderno.css">
+    <link rel="stylesheet" href="estilos/media-caderno.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <a href="index.html"><img src="imagens/logo.jpeg" alt="logo"></a>
+        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="menu">
+            <a href="materias/matematica.html" target="frame">Matemática</a>
+            <a href="materias/lingua-portuguesa.html" target="frame">Língua Portuguesa</a>
+            <a href="materias/ingles.html" target="frame">Inglês</a>
+            <a href="materias/biologia.html" target="frame">Biologia</a>
+            <a href="materias/geografia.html" target="frame">Geografia</a>
+            <a href="materias/filosofia.html" target="frame">Filosofia</a>
+            <a href="materias/historia.html" target="frame">História</a>
+            <a href="materias/geopolitica.html" target="frame">Geopolítica</a>
+            <a href="materias/oratoria.html" target="frame">Oratória</a>
+            <a href="materias/educacao-financeira.html" target="frame">Educação Financeira</a>
+            <a href="materias/fisica.html" target="frame">Física</a>
+            <a href="materias/quimica.html" target="frame">Quimica</a>
+            <a href="materias/sociologia.html" target="frame">Sociologia</a>
+        </menu>
+    </header>
+
+
+
+    <main>
+
+    <div id="conteudo">
+        <iframe id="iframe" name="frame" src="" frameborder="0"></iframe>
+    </div>
+
+
+
+    </main>
+
+
+
+
+
+
+
+    <script>
+        function mudouTamanho(){
+            if (window.innerWidth >= 992) {
+                menu.style.display = 'flex'
+                burger.style.display = 'none'
+            } else  {
+                burger.style.display = 'flex'
+                menu.style.display = 'none'
+            }
+        }
+        function clickMenu(){
+            if (menu.style.display == 'flex'){
+                menu.style.display = 'none'
+            } else {
+                menu.style.display =  'flex'
+            }
+        }
+    </script>
+
+    <footer>
+        <p>Siga:<img src="imagens/instagram.png" alt=""><a href="https://www.instagram.com/breno_r4mos/" target="_blank" rel="external">@breno_r4mos</a></p>
+        <p>Criado por <strong>Breno Ramos</strong></p>
+    </footer>
+</body>
+</html>

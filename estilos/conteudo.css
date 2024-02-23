@@ -1,85 +1,22 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
---fonte-padrao: "Montserrat", sans-serif;
+    --fonte-padrao: "Urbanist", sans-serif;
+}
+
+*{
+    font-family: var(--fonte-padrao);
 }
 
 
+p{
+    text-indent: 10px;
+}
+
+.data{
+    text-align: right;
+}
 
 
-
-
-
-
-
-    body{
-        background-color:#F2F2F2;
-        padding: 20px;
-        font-family: var(--fonte-padrao);
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5em;
-        font-size: 3vw;
-        height: 100vh;
-    }
-    body > p {
-        text-indent: 1em;
-    }
-    
-    h2{
-        font-size: 1.3em;
-    }
-
-    .data{
-        text-align: right;
-    }
-
-    sup{
-        font-size: .5em;
-    }
-
-    ol{
-        columns: 2;
-        text-align: start;
-    }
-
-
-    .exercicio{
-
-        color: red;
-    }
-
-
-    .cab{
-        display: flex;
-    }
-
-
-
-
-
-
-    /* Geografia */
-
-    table{
-        margin: auto;
-        overflow-x: auto;
-        background-color: white;
-        width: 80vw;
-        border-collapse: collapse;
-    }
-    thead{
-        background-color: lightgray;
-    }
-    td{
-        padding-left: 10px;
-    }
-    tr, th, td{
-        border: 1px solid black;
-    }
-    .dados{
-        text-align: right;
-        padding-right: 10px;
-    }

@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints
+-------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992 até 1200px
+Grandes telas: acima de 1200px
+ */
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --cor01: #1B1732;
+    --cor02: #2A2069;
+    --cor03: #2D15B1;
+    --cor04: #846EFF;
+    --cor05: #F8F7FF;
+
+    --fonte-padrao:  "Urbanist", sans-serif;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte-padrao);
+    font-size: 20px;
+}
+
+
+
+/* Cabeçalho */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25vw;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.192);
+}
+header > a > img{
+    width: 80px;
+}
+
+
+header > menu > a{
+        color: var(--cor03);
+        text-decoration: none;
+        padding: 10px;
+}
+
+header > menu > a:hover{
+    background-color: var(--cor05);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.356);
+}
+
+/* Corpo */
+
+
+
+#conteudo-principal > div > img{
+    width: 300px;
+}
+
+
+#conteudo-principal{
+    background-image: url('../imagens/fundo-esc.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 50px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    line-height: 45px;
+}
+#conteudo-principal > div > h1{
+    font-size: 2em;
+}
+#conteudo-principal > div > a{
+    text-decoration: none;
+    background-color: var(--cor03);
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+#conteudo-principal > div > p{
+    padding-bottom: 20px;
+}
+
+#conteudo-principal > a:hover{
+    background-color: var(--cor04);
+}
+
+
+#conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 250px;
+    padding: 30px;
+    line-height: 35px;
+    -webkit-box-shadow: inset 0px 64px 35px -33px rgba(0,0,0,0.16);
+    -moz-box-shadow: inset 0px 64px 35px -33px rgba(0,0,0,0.16);
+    box-shadow: inset 0px 64px 35px -33px rgba(0,0,0,0.16);
+}
+
+#conteudo-secundario > h2{
+    font-size: 1.2em;
+}
+
+#conteudo-secundario > p{
+    text-align: center;
+    font-size: 16px;
+    padding: 15px 10px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: var(--fonte-padrao);
+    font-size: 14px;
+}
+
+footer > p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    margin: auto;
+    gap: 5px;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: white;
+}

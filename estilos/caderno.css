@@ -1,98 +1,74 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'Sarala';
-    src: url('../fontes/Sarala-Regular.ttf') format('truetype');
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --cor01: #1B1732;
+    --cor02: #2A2069;
+    --cor03: #2D15B1;
+    --cor04: #846EFF;
+    --cor05: #F8F7FF;
+
+    --fonte-padrao: "Urbanist", sans-serif;
 }
-@font-face {
-    font-family: 'Bayon';
-    src: url('../fontes/Bayon-Regular.ttf');
-}:root{
-  --fonte-padrao: 'Sarala', Arial, sans-serif;
-  --fonte-titulo: 'Bayon', sans-serif;
-}
+
 *{
     margin: 0px;
     padding: 0px;
-}
-
-/* Cabeçalho */
-
-.cabecalho{
-    display: flex;
-    justify-content: space-around;
-    gap: 40vw;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.288);
-}
-#logo{
-    width: 80px;
-    height: 80px;
-}
-.menu {    
-    display: flex;
-    align-items: center;
-}
-.menu-item{
-    margin: 10px;
-    padding: 10px ;
-    font-size: 16px;
-    text-decoration: none;
-    color: black;
     font-family: var(--fonte-padrao);
 }
-.menu-item:hover{
-    background-color: #D9D9D9;
-    transition: .5s;
-    border-radius: 10px;
-}
-
-/* Corpo */
 
 
-
-.materias{
+header{
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: auto;
-    align-items: center;
-    padding: 5px;
-    width: 90vw;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.301);
+}
+
+header > a > img{
     height: 70px;
-    background-color: #D6D6D6;
-    border-radius: 0px 0px 10px 10px ;
 }
-.materias a{
-    display: flex;
+
+#burger:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.295);
+}
+
+menu{
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+header > menu > a{
+    padding: 10px;
     text-decoration: none;
-    color: black;
-    padding: 5px;
-    margin: auto;
-    font-family: var(--fonte-padrao);
 }
-.materias a:hover{
-    background-color: darkgray;
-    color: white;
-    border-radius: 5px;
-    transition: .1s;
-}
-.conteudo{
+
+
+
+
+div#conteudo{
     position: relative;
-    background-color: white;
     height: 90vh;
-   
-    }
-.iframe{
+}
+
+iframe{
     position: absolute;
     margin: auto;
     top: 5%;
-    left: 10%;
-    width: 80vw;
+    left: 3.5%;
+    width: 90vw;
     height: 90%;
+
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.247);
 }
- 
-/* Rodapé */
-.rodape{
+
+footer{
     display: flex;
     flex-wrap: wrap;
     background-color: black;
@@ -101,7 +77,8 @@
     font-family: var(--fonte-padrao);
     font-size: 14px;
 }
-.rodape-escrito{
+
+footer > p{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -109,7 +86,8 @@
     margin: auto;
     gap: 5px;
 }
-.link{
+
+footer > p > a{
     text-decoration: none;
     color: white;
 }

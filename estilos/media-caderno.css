@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints
+-------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992 até 1200px
+Grandes telas: acima de 1200px
+ */
+
+ @media screen and (min-width: 768px) and (max-width: 992px){
+    iframe{
+        left: 15%;
+        width: 70vw;
+    }
+ }
+
+ @media screen and (min-width: 992px) and (max-width: 1200px){
+    iframe{
+        left: 15%;
+        width: 70vw;
+    }
+ }
+
+ @media screen and (min-width: 1200px){
+    iframe{
+        left: 20%;
+        width: 60vw;
+    }
+ }
