@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Sarala';
+    src: url('../fontes/Sarala-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Bayon';
+    src: url('../fontes/Bayon-Regular.ttf');
+}:root{
+  --fonte-padrao: 'Sarala', Arial, sans-serif;
+  --fonte-titulo: 'Bayon', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Cabeçalho */
+
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    gap: 40vw;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.288);
+}
+#logo{
+    width: 80px;
+    height: 80px;
+}
+.menu {    
+    display: flex;
+    align-items: center;
+}
+.menu-item{
+    margin: 10px;
+    padding: 10px ;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-padrao);
+}
+.menu-item:hover{
+    background-color: #D9D9D9;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+/* Corpo */
+
+
+
+.materias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    padding: 5px;
+    width: 90vw;
+    height: 70px;
+    background-color: #D6D6D6;
+    border-radius: 0px 0px 10px 10px ;
+}
+.materias a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin: auto;
+    font-family: var(--fonte-padrao);
+}
+.materias a:hover{
+    background-color: darkgray;
+    color: white;
+    border-radius: 5px;
+    transition: .1s;
+}
+.conteudo{
+    position: relative;
+    background-color: white;
+    height: 90vh;
+   
+    }
+.iframe{
+    position: absolute;
+    margin: auto;
+    top: 5%;
+    left: 10%;
+    width: 80vw;
+    height: 90%;
+}
+ 
+/* Rodapé */
+.rodape{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: var(--fonte-padrao);
+    font-size: 14px;
+}
+.rodape-escrito{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    margin: auto;
+    gap: 5px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
