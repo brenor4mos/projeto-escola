@@ -53,7 +53,7 @@ header > menu{
 }
 
 header > menu > a{
-    color: #2D15B1;
+    color: var(--cor03);
     padding: 10px;
     text-decoration: none;
 }
