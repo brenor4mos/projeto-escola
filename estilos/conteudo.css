@@ -10,6 +10,9 @@
     font-family: var(--fonte-padrao);
 }
 
+body{
+    padding: 5px;
+}
 
 p{
     text-indent: 10px;

@@ -27,7 +27,6 @@ Grandes telas: acima de 1200px
     margin: 0px;
     padding: 0px;
     font-family: var(--fonte-padrao);
-    font-size: 20px;
 }
 
 
@@ -92,6 +91,7 @@ header > menu > a:hover{
 }
 
 #conteudo-principal > div > p{
+    font-size: 20px;
     padding-bottom: 20px;
 }
 
@@ -131,7 +131,7 @@ footer{
     color: white;
     padding: 10px;
     font-family: var(--fonte-padrao);
-    font-size: 14px;
+
 }
 
 footer > p{
