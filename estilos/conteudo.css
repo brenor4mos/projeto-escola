@@ -34,3 +34,18 @@ p{
 .cred::before{
     content:  'Material utilizado:' ;
 }
+
+div.video{
+    margin: 0px -13px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.6%;
+    position: relative;
+}
+
+.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    height: 90%;
+}
