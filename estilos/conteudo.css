@@ -8,6 +8,7 @@
 
 *{
     font-family: var(--fonte-padrao);
+    text-align: justify;
 }
 
 body{
@@ -21,5 +22,7 @@ p{
 .data{
     text-align: right;
 }
-
+.data::before{
+    content: 'Data:';
+}
 
