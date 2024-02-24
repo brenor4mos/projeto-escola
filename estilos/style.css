@@ -40,8 +40,8 @@ header{
     gap: 25vw;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.192);
 }
-header > a > img{
-    width: 80px;
+.logo{
+    width: 70px;
 }
 
 
@@ -146,4 +146,8 @@ footer > p{
 footer > p > a{
     text-decoration: none;
     color: white;
+}
+
+#logo-inst{
+    width: 15px;
 }

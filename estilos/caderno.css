@@ -33,7 +33,7 @@ header > div{
     justify-content: space-around;
 }
 
-header > div > a > img{
+.logo{
     height: 70px;
 }
 
@@ -98,4 +98,9 @@ footer > p{
 footer > p > a{
     text-decoration: none;
     color: white;
+}
+
+
+#logo-inst{
+    width: 15px;
 }
