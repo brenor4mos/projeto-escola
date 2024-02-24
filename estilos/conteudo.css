@@ -23,6 +23,14 @@ p{
     text-align: right;
 }
 .data::before{
-    content: 'Data:';
+    content: 'Data: ';
 }
-
+.cab{
+    display: flex;
+}
+.cab > div{
+    width: 50%;
+}
+.cred::before{
+    content:  'Material utilizado:' ;
+}
