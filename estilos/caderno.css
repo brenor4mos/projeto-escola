@@ -19,9 +19,13 @@
     font-family: var(--fonte-padrao);
 }
 
+body{
+    background-color: var(--cor05);
+
+}
 
 header{
-    
+    background-color: white;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.301);
 }
 

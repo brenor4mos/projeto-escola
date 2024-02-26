@@ -38,6 +38,7 @@ header{
     align-items: center;
     justify-content: space-around;
     gap: 25vw;
+    background-color: white;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.192);
 }
 .logo{
@@ -63,7 +64,7 @@ header > menu > a:hover{
 
 
 #conteudo-principal > div > img{
-    width: 300px;
+    width: 230px;
 }
 
 
