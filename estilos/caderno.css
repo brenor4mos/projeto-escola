@@ -42,10 +42,13 @@ header > div{
 
 
 
-#burger:hover{
+#burger{
     border-radius: 50%;
     padding: 7px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.295);
+}
+#burger:hover{
+    background-color: var(--cor05);
 }
 
 header > menu{

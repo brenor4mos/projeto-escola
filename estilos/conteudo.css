@@ -50,3 +50,11 @@ div.video{
     width: 80%;
     height: 90%;
 }
+
+.ncop{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    width: 300px;
+    content: 'Não é necessário copiar os enunciados';
+}
