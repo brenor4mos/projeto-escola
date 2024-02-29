@@ -32,6 +32,10 @@ p{
 .cab > div{
     width: 50%;
 }
+
+.cred{
+    color: blue;
+}
 .cred::before{
     content:  'Material utilizado:' ;
 }
