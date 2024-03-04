@@ -60,5 +60,5 @@ div.video{
     color: white;
     text-align: center;
     width: 300px;
-    content: 'Não é necessário copiar os enunciados';
+    /* Não é necessário copiar os enunciados'; */
 }
