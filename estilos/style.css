@@ -8,8 +8,8 @@ Tablet: 768px até 992px
 Desktop: 992 até 1200px
 Grandes telas: acima de 1200px
  */
- 
- @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 :root{
@@ -18,6 +18,15 @@ Grandes telas: acima de 1200px
     --cor03: #2D15B1;
     --cor04: #846EFF;
     --cor05: #F8F7FF;
+
+--cortest1: #350C40; 
+--cortest2: #200726; 
+--cortest3: #4A1259; 
+--cortest4: #622773; 
+--cortest5: #A192A6; 
+
+
+
 
     --fonte-padrao:  "Urbanist", sans-serif;
 }
@@ -38,22 +47,21 @@ header{
     align-items: center;
     justify-content: space-around;
     gap: 25vw;
-    background-color: white;
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.192);
 }
 .logo{
-    width: 70px;
+    width: 50px;
+    padding: 25px;
 }
 
 
 header > menu > a{
-        color: var(--cor03);
+        color: var(--cor05);
         text-decoration: none;
         padding: 10px;
 }
 
 header > menu > a:hover{
-    background-color: var(--cor05);
+    background-color: var(--cortest3);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.356);
@@ -61,34 +69,38 @@ header > menu > a:hover{
 
 /* Corpo */
 
+body{
+    background-image: linear-gradient(55deg, #000000 ,#622773);
+}
 
 
 #conteudo-principal > div > img{
-    width: 230px;
+    width: 200px;
 }
 
 
 #conteudo-principal{
-    background-image: url('../imagens/fundo-esc.jpg');
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 40px 50px;
+    height: 65vh;
+    padding: 0px 20px;
     text-align: center;
-    margin: auto;
+    margin: 50px auto 140px;
     color: white;
     line-height: 45px;
+
 }
 #conteudo-principal > div > h1{
     font-size: 2em;
 }
 #conteudo-principal > div > a{
     text-decoration: none;
-    background-color: var(--cor03);
+    background-color: var(--cortest4);
     color: white;
     padding: 15px;
     font-size: 20px;
     border-radius: 15px;
+}
+#conteudo-principal > div > a:hover{
+    background-color: var(--cor04);
 }
 
 #conteudo-principal > div > p{
@@ -98,6 +110,14 @@ header > menu > a:hover{
 
 #conteudo-principal > a:hover{
     background-color: var(--cor04);
+}
+
+#filho{
+    background-color: rgba(0, 0, 0, 0.192);
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.247);
+    margin-bottom: 20px;
 }
 
 

@@ -34,10 +34,12 @@ header > div{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 25vw;
 }
 
 .logo{
-    height: 70px;
+    width: 50px;
+    padding: 20px;
 }
 
 
