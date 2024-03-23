@@ -1,12 +1,18 @@
 {
     "cSpell.words": [
+        "𝑎𝑥",
         "CMSP",
         "EMIFCG",
         "popups",
         "shortcut",
         "socioemocionais",
         "soioemocionais",
-        "stronger"
+        "stronger",
+        "Viète"
     ],
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+        "live-server-extension": true,
+        "live-preview-extension": true
+    }
 }
