@@ -152,6 +152,12 @@ body{
     padding: 15px 10px;
 }
 
+#copyButton{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.404);
+}
 footer{
     display: flex;
     flex-wrap: wrap;

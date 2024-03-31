@@ -32,6 +32,10 @@
         <section id="conteudo-secundario">
             <h2>Apoie o projeto</h2>
             <img src="imagens/qr-pix.jpeg" alt="">
+            <button id="copyButton" onclick="copiaTexto()"> Pix Copia e Cola </button>
+            <div>
+                <textarea style="display: none;" id="copyText" rows="0" cols="0">00020101021126580014br.gov.bcb.pix013644e7cac3-250b-4f6f-b42a-bdf6889f1de95204000053039865802BR5919BRENO RAMOS APACITE6005COTIA62070503***630416B0</textarea>
+            </div>
         </section>
     </main>
 
@@ -40,6 +44,13 @@
         <p>Siga:<img id="logo-inst" src="imagens/instagram.png" alt=""><a href="https://www.instagram.com/breno_r4mos/" target="_blank" rel="external">@breno_r4mos</a></p>
         <p>Criado por <strong>Breno Ramos</strong></p>
     </footer>
-
+    <script>
+        function copiaTexto() {
+            var copyText = document.getElementById("copyText");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Texto copiado");
+        }
+    </script>
 </body>
 </html>
