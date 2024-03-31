@@ -17,7 +17,7 @@ Grandes telas: acima de 1200px
 
 @media screen and (min-width: 600px) and (max-width: 768px){
     #conteudo-principal > div > img{
-        width: 60vw;
+        width: 350px;
     }
 }
 
@@ -30,7 +30,7 @@ Grandes telas: acima de 1200px
         align-items: center;
     }
     #conteudo-principal > div > img{
-        width: 45vw;
+        width: 400px;
     }
     #conteudo-secundario > p{
         width: 50vw;
@@ -52,7 +52,7 @@ Grandes telas: acima de 1200px
         height: 48.2vh;
     }
     #conteudo-principal > div > img{
-        width: 45vw;
+        width: 450px;
     }
     #conteudo-secundario > p{
         width: 50vw;
@@ -73,7 +73,7 @@ Grandes telas: acima de 1200px
         align-items: center;
     }
     #conteudo-principal > div > img{
-        width: 37.2vw;
+        width: 450px;
     }
     #conteudo-secundario > p{
         font-size: 20px;

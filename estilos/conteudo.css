@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 :root{
-    --fonte-padrao: "Urbanist", sans-serif;
+    --fonte-padrao:"Quicksand", sans-serif;
 }
 
 *{
@@ -13,7 +13,7 @@
 
 body{
     padding: 5px;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 p{
@@ -27,10 +27,12 @@ p{
     content: 'Data: ';
 }
 .cab{
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
 }
-.cab > div{
-    width: 50%;
+.cab li{
+    text-align: initial;
 }
 
 .cred{

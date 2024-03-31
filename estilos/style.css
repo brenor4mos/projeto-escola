@@ -49,8 +49,8 @@ header{
     gap: 25vw;
 }
 .logo{
-    width: 50px;
-    padding: 25px;
+    width: 40px;
+    padding: 20px;
 }
 
 
@@ -80,7 +80,7 @@ body{
 
 
 #conteudo-principal{
-    height: 65vh;
+    height: 60vh;
     padding: 0px 20px;
     text-align: center;
     margin: 50px auto 140px;
@@ -127,7 +127,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: white;
-    height: 250px;
+
     padding: 30px;
     line-height: 35px;
     -webkit-box-shadow: inset 0px 64px 35px -33px rgba(0,0,0,0.16);
@@ -137,6 +137,13 @@ body{
 
 #conteudo-secundario > h2{
     font-size: 1.2em;
+
+}
+
+#conteudo-secundario > img{
+    width: 200px;
+    height: 200px;
+    padding: 30px;
 }
 
 #conteudo-secundario > p{
