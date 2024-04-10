@@ -31,6 +31,12 @@ Grandes telas: acima de 1200px
     --fonte-padrao:  "Urbanist", sans-serif;
 }
 
+@keyframes introImagem {
+    0%{
+        width: 150px;
+    }
+}
+
 
 *{
     margin: 0px;
@@ -76,6 +82,8 @@ body{
 
 #conteudo-principal > div > img{
     width: 200px;
+    animation-name: introImagem;
+    animation-duration: 1s;
 }
 
 
