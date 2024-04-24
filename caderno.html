@@ -12,32 +12,20 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
-<body onresize="mudouTamanho()">
+<body>
     <header>
         <div>
             <a href="index.html"><img src="imagens/logo-preto.png" alt="Logo" class="logo"></a>
-            <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+            <span id="burger" class="material-symbols-outlined">menu</span>
         </div>
         <menu id="menu">
-            <a href="materias/matematica.html" target="frame">Matemática</a>
-            <a href="materias/lingua-portuguesa.html" target="frame">Língua Portuguesa</a>
-            <a href="materias/ingles.html" target="frame">Inglês</a>
-            <a href="materias/geografia.html" target="frame">Geografia</a>
-            <a href="materias/filosofia.html" target="frame">Filosofia</a>
-            <a href="materias/historia.html" target="frame">História</a>
-            <a href="materias/fisica/fisica.html" target="frame">Física</a>
-            <a href="materias/oratoria.html" target="frame">Oratória</a>
-            <a href="materias/arte-midias-digitais.html" target="frame">Arte e Mídias Digitais</a>
-            <a href="materias/geopolitica/geopolitica.html" target="frame">Geopolítica</a>
-            <a href="materias/lideranca.html" target="frame">Liderança</a>
-            <a href="materias/projeto-de-vida.html" target="frame">Projeto de Vida</a>
-            <a href="materias/educacao-financeira.html" target="frame">Educação Financeira</a>
+            <a href="materias_2B/lingua-portuguesa.html" target="frame">Língua Portuguesa</a>  
         </menu>
     </header>
 
 
     <main>
-        <div id="conteudo">
+        <div  id="conteudo">
             <iframe id="iframe" name="frame" frameborder="0" sandbox="  allow-popups  allow-same-origin allow-scripts "
                 srcdoc="<h1>Escolha uma matéria acima</h1>">
                 <p>Seu navegador é incompatível com esse recurso &#40;</p>
@@ -48,21 +36,13 @@
                 target="_blank" rel="external">Clique aqui</a></p>
     </main>
 
-    <script>
-        function clickMenu() {
-            if (menu.style.display == 'flex') {
-                menu.style.display = 'none'
-            } else {
-                menu.style.display = 'flex'
-            }
-        }
-    </script>
-
     <footer>
         <p>Siga:<img src="imagens/instagram.png" alt="Logo do Instagram" id="logo-inst"><a
                 href="https://www.instagram.com/breno_r4mos/" target="_blank" rel="external">@breno_r4mos</a></p>
         <p>Criado por <strong>Breno Ramos</strong></p>
     </footer>
+    
+    <script src="js.js"></script>
 </body>
 
 </html>
