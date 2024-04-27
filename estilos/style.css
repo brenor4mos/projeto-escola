@@ -33,7 +33,7 @@ Grandes telas: acima de 1200px
 
 @keyframes introImagem {
     0%{
-        transform: translate(0%, 20%);
+        transform: translate(0%, 7%);
     }
 }
 
@@ -55,8 +55,8 @@ header{
     gap: 25vw;
 }
 .logo{
-    width: 40px;
-    padding: 20px;
+    width: 50px;
+    padding: 30px;
 }
 
 
@@ -67,7 +67,7 @@ header > menu > a{
 }
 
 header > menu > a:hover{
-    background-color: var(--cortest3);
+    background-color: var(--cor04);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.356);
@@ -76,25 +76,24 @@ header > menu > a:hover{
 /* Corpo */
 
 body{
-    background-image: linear-gradient(55deg, #000000 ,#282773);
-}
-
-
-#conteudo-principal > div > img{
-    width: 200px;
-    animation-name: introImagem;
-    animation-duration: .8s;
+    background-image: linear-gradient(55deg, #000000 ,#53d4fc);
 }
 
 
 #conteudo-principal{
-    height: 62vh;
+    height: 70vh ;
     padding: 0px 20px;
     text-align: center;
     margin: 50px auto 140px;
     color: white;
     line-height: 45px;
 
+}
+#mascote{
+    width: 200px;
+    animation-name: introImagem;
+    animation-duration: .8s;
+    filter: drop-shadow(1px 1px 10px rgba(255, 255, 255, 0.384));
 }
 #conteudo-principal > div > h1{
     font-size: 2em;
@@ -121,7 +120,7 @@ body{
 }
 
 #filho{
-    background-color: rgba(0, 0, 0, 0.192);
+    background-color: rgba(255, 255, 255, 0.192);
     padding: 35px;
     border-radius: 20px;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.247);
@@ -129,36 +128,6 @@ body{
 }
 
 
-#conteudo-secundario{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-
-    padding: 30px;
-    line-height: 35px;
-    -webkit-box-shadow: inset 0px 64px 35px -33px rgba(0,0,0,0.16);
-    -moz-box-shadow: inset 0px 64px 35px -33px rgba(0,0,0,0.16);
-    box-shadow: inset 0px 64px 35px -33px rgba(0,0,0,0.16);
-}
-
-#conteudo-secundario > h2{
-    font-size: 1.2em;
-
-}
-
-#conteudo-secundario > img{
-    width: 200px;
-    height: 200px;
-    padding: 30px;
-}
-
-#conteudo-secundario > p{
-    text-align: center;
-    font-size: 16px;
-    padding: 15px 10px;
-}
 
 footer{
     display: flex;
