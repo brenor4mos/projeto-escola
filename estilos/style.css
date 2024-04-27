@@ -81,10 +81,9 @@ body{
 
 
 #conteudo-principal{
-    height: 70vh ;
     padding: 0px 20px;
     text-align: center;
-    margin: 50px auto 140px;
+    margin: 100px auto 140px;
     color: white;
     line-height: 45px;
 
@@ -100,7 +99,7 @@ body{
 }
 #conteudo-principal > div > a{
     text-decoration: none;
-    background-color: var(--cortest4);
+    background-color: var(--cor03);
     color: white;
     padding: 15px;
     font-size: 20px;
@@ -124,7 +123,6 @@ body{
     padding: 35px;
     border-radius: 20px;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.247);
-    margin-bottom: 20px;
 }
 
 
