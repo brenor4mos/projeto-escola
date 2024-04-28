@@ -15,5 +15,6 @@
     "console-ninja.toolsToEnableSupportAutomaticallyFor": {
         "live-server-extension": true,
         "live-preview-extension": true
-    }
+    },
+    "livePreview.defaultPreviewPath": "/repositorio/materias_2B/projeto_de_vida.html"
 }

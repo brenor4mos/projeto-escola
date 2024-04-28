@@ -2,8 +2,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+@font-face {
+    font-family: Khand;
+    src: url(../fonts/Khand-Variable.ttf);
+}
+
+@font-face {
+    font-family: GeneralSans;
+    src: url(../fonts/GeneralSans-Variable.ttf);
+}
 :root{
     --fonte-padrao:"Quicksand", sans-serif;
+    --fonte-titulos: Khand, Arial,sans-serif;
+    --fonte-paragrafos: GeneralSans , Arial, sans-serif ;
 }
 
 *{
@@ -16,23 +27,57 @@ body{
     background-color: #ffffff;
 }
 
+h1, h2, h3 {
+    font-family: var(--fonte-titulos);
+    font-weight: 700;
+    text-align: center;
+}
+span{
+    margin-left: 20px;
+    text-align: end;
+}
 p{
+    font-family: var(--fonte-paragrafos);
     text-indent: 10px;
 }
+.pergunta {
+    text-indent: 0;
+    padding: 20px;
+    font-weight: bolder;
+}
+.resposta{
+    text-indent: 0;
+    padding: 0px 30px;
+    font-weight: 600;
+}
 
+.slide{
+    text-align: left;
+}
+
+.dia_aula{
+    border-bottom: 1px solid black;
+}
 .data{
-    text-align: right;
+    text-align: left; 
 }
-.data::before{
-    content: 'Data: ';
+.data>span{
+    font-weight: bolder;
+    color: red;
 }
-.cab{
+.cabecalho{
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 10px;
 }
-.cab li{
+.cabecalho li{
     text-align: initial;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 80%;
 }
 
 .cred{
@@ -40,7 +85,9 @@ p{
 }
 .cred::before{
     content:  'Material utilizado:' ;
-}
+} 
+
+
 
 div.video{
     margin: 0px -13px 30px -20px;
@@ -55,14 +102,6 @@ div.video{
     left: 10%;
     width: 80%;
     height: 90%;
-}
-
-.ncop{
-    background-color: gray;
-    color: white;
-    text-align: center;
-    width: 300px;
-    /* Não é necessário copiar os enunciados'; */
 }
 
 /* Typical Device Breakpoints

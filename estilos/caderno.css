@@ -25,6 +25,8 @@ body{
 
 header{
     background-color: white;
+    
+    
 }
 
 header > div{
@@ -61,14 +63,16 @@ main{
     padding: 20px;
     border-radius: 20px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.274);
+    text-align: center;
 }
 #conteudo > div > button{
     background-color: #38d7ff;
     color: white;
-    padding: 10px;
+    padding: 15px;
+    font-size: 20px;
     margin: 15px auto;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 #conteudo > div > button:hover{
     background-color: #9fecff;
