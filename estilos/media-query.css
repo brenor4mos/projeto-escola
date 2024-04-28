@@ -9,20 +9,7 @@ Desktop: 992 até 1200px
 Grandes telas: acima de 1200px
  */
 
-@media screen and (max-width: 600px){
-    #conteudo-principal > div > img{
-        width: 290px;
-    }
-}
 
-@media screen and (min-width: 600px) and (max-width: 768px){
-    #conteudo-principal {
-        height: 62.7vh;
-    }
-    #conteudo-principal > div > img{
-        width: 350px;
-    }
-}
 
 
 @media screen and (min-width: 768px) and (max-width: 992px){
@@ -31,11 +18,12 @@ Grandes telas: acima de 1200px
         flex-direction: row-reverse;
         justify-content: space-around;
         align-items: center;
-        height: 66vh;
+        height: 63.7vh;
     }
     #conteudo-principal > div > img{
         width: 400px;
-    }
+    } 
+
     #conteudo-secundario > p{
         width: 50vw;
     }
@@ -67,7 +55,7 @@ Grandes telas: acima de 1200px
         flex-direction: row-reverse;
         justify-content: space-evenly;
         align-items: center;
-        height: 63vh;
+        height: 76vh;
     }
     #conteudo-principal > div > img{
         width: 450px;

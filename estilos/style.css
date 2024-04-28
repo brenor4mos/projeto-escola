@@ -53,10 +53,10 @@ header{
     align-items: center;
     justify-content: space-around;
     gap: 25vw;
+    padding: 30px;
 }
 .logo{
     width: 50px;
-    padding: 30px;
 }
 
 
@@ -86,10 +86,10 @@ body{
     margin: 100px auto 140px;
     color: white;
     line-height: 45px;
-
+    height: 62.7vh;
 }
 #mascote{
-    width: 200px;
+    width: 290px;
     animation-name: introImagem;
     animation-duration: .8s;
     filter: drop-shadow(1px 1px 10px rgba(255, 255, 255, 0.384));
