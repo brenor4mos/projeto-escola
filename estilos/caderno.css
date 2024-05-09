@@ -40,6 +40,7 @@ header > div{
     display: none;
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
 #voltar > img {
     width: 30px;
