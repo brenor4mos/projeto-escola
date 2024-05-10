@@ -55,6 +55,7 @@ header > div{
 main{
     margin: auto;
     width: 60%;
+    color: #0ce70c;
 }
 
 #conteudo > div{
@@ -63,8 +64,8 @@ main{
     margin: 20px auto;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.274);
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 #conteudo > div > button{
     background-color: #38d7ff;
@@ -74,6 +75,7 @@ main{
     margin: 15px auto;
     border: none;
     border-radius: 20px;
+    cursor: pointer;
 }
 #conteudo > div > button:hover{
     background-color: #9fecff;
