@@ -16,5 +16,6 @@
         "live-server-extension": true,
         "live-preview-extension": true
     },
-    "livePreview.defaultPreviewPath": "/repositorio/materias_2B/projeto_de_vida.html"
+    "livePreview.defaultPreviewPath": "/repositorio/materias_2B/projeto_de_vida.html",
+    "editor.fontFamily": "JetBrains Mono Light",
 }

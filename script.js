@@ -17,16 +17,6 @@ function mostrarConteudo(id) {
     let iframe = document.querySelector("iframe");
     let botaoVoltar = document.querySelector("#voltar");
 
-    estrutura.style.display = "none";
-    botaoVoltar.style.display = "block";
-    iframe.style.display = "block";
-
-    botaoVoltar.addEventListener("click", () => {
-        iframe.style.display = "none";
-        estrutura.style.display = "block";
-        botaoVoltar.style.display = "none";
-    });
-
     let materias = {
         portugues: `${url}lingua-portuguesa.html`,
         matematica: `${url}matematica.html`,
@@ -38,6 +28,16 @@ function mostrarConteudo(id) {
         educacao_financeira: `${url}educacao_financeira.html`,
         projeto_de_vida: `${url}projeto_de_vida.html`,
     };
+
+    estrutura.style.display = "none";
+    botaoVoltar.style.display = "block";
+    iframe.style.display = "block";
+
+    botaoVoltar.addEventListener("click", () => {
+        iframe.style.display = "none";
+        estrutura.style.display = "block";
+        botaoVoltar.style.display = "none";
+    });
 
     return (iframe.src = materias[id]);
 }
@@ -52,7 +52,6 @@ function adicionarHover(elemento, cor) {
         h1.style.color = "";
     });
 }
-
 
 adicionarHover(portugues, "green");
 adicionarHover(matematica, "red");
