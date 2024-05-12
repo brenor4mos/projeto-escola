@@ -41,6 +41,19 @@ p{
     font-family: var(--fonte-paragrafos);
     text-indent: 10px;
 }
+
+a {
+    text-decoration: none;
+    color: rgb(48, 48, 63);
+}
+a::after{
+    content: '🔗';
+}
+a:hover{
+    text-decoration: underline;
+    color: darkblue;
+}
+
 .pergunta {
     text-indent: 0;
     padding: 20px;
@@ -66,12 +79,12 @@ p{
     font-weight: bolder;
     color: red;
 }
-.cabecalho{
+.divmetade{
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 10px;
 }
-.cabecalho li{
+.divmetade li{
     text-align: initial;
 }
 
