@@ -10,6 +10,7 @@ const oratoria = document.querySelector("#oratoria");
 const educacao_financeira = document.querySelector("#educacao_financeira");
 const projeto_de_vida = document.querySelector("#projeto_de_vida");
 const historia = document.querySelector('#historia');
+const geopolitica = document.querySelector('#geopolitica');
 const url = "repositorio/materias_2B/";
 
 let botaoUp = document.querySelector('#btnUp');
@@ -50,7 +51,8 @@ function mostrarConteudo(id) {
         oratoria: `${url}oratoria.html`,
         educacao_financeira: `${url}educacao_financeira.html`,
         projeto_de_vida: `${url}projeto_de_vida.html`,
-        historia: `${url}historia.html`
+        historia: `${url}historia.html`,
+        geopolitica: `${url}geopolitica.html`
     };
 
     estrutura.style.display = "none";
@@ -91,4 +93,5 @@ adicionarHover(oratoria, "purple");
 adicionarHover(educacao_financeira, "pink");
 adicionarHover(projeto_de_vida, "magenta");
 adicionarHover(historia, "brown");
+adicionarHover(geopolitica, "#1ABC9C")
 
