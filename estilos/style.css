@@ -38,6 +38,8 @@ Grandes telas: acima de 1200px
 }
 
 
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -63,25 +65,24 @@ header{
 header > menu > a{
         color: var(--cor05);
         text-decoration: none;
-        padding: 10px;
 }
 
 header > menu > a:hover{
-    background-color: var(--cor04);
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.356);
+    border-bottom: 1px solid rgb(0, 2, 150);
+    transition: 1s;
+
 }
 
 /* Corpo */
 
 body{
-    background-image: linear-gradient(55deg, #000000 ,#53d4fc);
+    background-image: linear-gradient(55deg, #0F006F ,#00A0FA);
 }
 
 
 #conteudo-principal{
-    padding: 0px 20px;
+    display: block;
+    padding: 0px 10px;
     text-align: center;
     margin: 100px auto 140px;
     color: white;
@@ -99,23 +100,21 @@ body{
 }
 #conteudo-principal > div > a{
     text-decoration: none;
-    background-color: var(--cor03);
+    background-color: #00A0FA;
     color: white;
     padding: 15px;
     font-size: 20px;
-    border-radius: 15px;
+    border-radius: 25px;
 }
-#conteudo-principal > div > a:hover{
-    background-color: var(--cor04);
-}
+
 
 #conteudo-principal > div > p{
     font-size: 20px;
     padding-bottom: 20px;
 }
 
-#conteudo-principal > a:hover{
-    background-color: var(--cor04);
+#conteudo-principal > div > a:hover{
+    background-color: #32b4ff;
 }
 
 #filho{
@@ -130,7 +129,7 @@ body{
 footer{
     display: flex;
     flex-wrap: wrap;
-    background-color: black;
+    background-color: #000227;
     color: white;
     padding: 10px;
     font-family: var(--fonte-padrao);
