@@ -10,11 +10,61 @@ Grandes telas: acima de 1200px
  */
 
 
+@media screen and (min-width: 768px) and (max-width: 991px){
+    #conteudo-principal{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+    }
+    #mascote{
+        width: 90%;
+    }
+    #mascote > img{
+        width: 100%;
+    }
+    #filho{
+        text-align: left;
+    }
+}
 
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    #conteudo-principal{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    #mascote{
+        width: 80%;
+    }
+    #mascote > img{
+        width: 100%;
+        
+    }
+    #filho{
+        text-align: left;
+    }
+}
 
-
-
-
+@media screen and (min-width: 1200px) {
+    #conteudo-principal{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    #mascote{
+        width: 80%;
+    }
+    #mascote > img{
+        width: 100%;
+        
+    }
+    #filho{
+        text-align: left;
+    }
+}
 
 
 

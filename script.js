@@ -62,7 +62,7 @@ function mostrarConteudo(id) {
     // TODO: Fazer com que o botão de up apareça depois que é acionado o iframe.
 
     botaoVoltar.addEventListener("click", () => {
-        estrutura.style.display = "block";
+        estrutura.style.display = "grid";
         botaoVoltar.style.display = "none"; // ? Volta ao normal 
         iframe.style.display = "none";
     });
