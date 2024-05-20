@@ -1,2 +1,3 @@
 # projeto-escola
- Algo inovador e diferente
+
+ Um site para auxiliar os alunos da minha sala.

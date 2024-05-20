@@ -10,121 +10,26 @@ Grandes telas: acima de 1200px
  */
 
 
+
+
+
+@media screen and (max-width: 767px){
+
+}
+
 @media screen and (min-width: 768px) and (max-width: 991px){
-    #conteudo-principal{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: row-reverse;
-        
-    }
-    header{
-        margin-bottom: 60px;
-    }
-    #mascote{
-        width: 90%;
-    }
-    #mascote > img{
-        width: 100%;
-    }
-    #filho{
-        text-align: left;
-    }
+
 }
 
 
 @media screen and (min-width: 992px) and (max-width: 1199px){
-    #conteudo-principal{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: row;
-    }
-    #mascote{
-        width: 80%;
-    }
-    #mascote > img{
-        width: 50%;
-        
-    }
-    #filho{
-        text-align: left;
-    }
+
 }
 
 @media screen and (min-width: 1200px) {
-    #conteudo-principal{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: row;
-    }
-    #mascote{
-        width: 80%;
-    }
-    #mascote > img{
-        width: 100%;
-        
-    }
-    #filho{
-        text-align: left;
-    }
-}
-
-
-
-
-/* 
-@media screen and (min-width: 768px) and (max-width: 992px){
-    #conteudo-principal{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-around;
-        align-items: center;
-        height: 63.7vh;
-    }
-    #conteudo-principal > div > img{
-        width: 400px;
-    } 
-
-    #conteudo-secundario > p{
-        width: 50vw;
-    }
 
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px){
-    
-    #conteudo-principal{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-around;
-        align-items: center;
-        height: 63vh;
-    }
-    #conteudo-principal > div > img{
-        width: 450px;
-    }
-    #conteudo-secundario > p{
-        width: 50vw;
-    }
 
-}
 
-@media screen and (min-width: 1200px){
-    
-    #conteudo-principal{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-evenly;
-        align-items: center;
-        height: 76vh;
-    }
-    #conteudo-principal > div > img{
-        width: 450px;
-    }
-    #conteudo-secundario > p{
-        font-size: 20px;
-        width: 50vw;
-    }
-} */
+
