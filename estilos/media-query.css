@@ -16,6 +16,10 @@ Grandes telas: acima de 1200px
         align-items: center;
         justify-content: space-evenly;
         flex-direction: row-reverse;
+        
+    }
+    header{
+        margin-bottom: 60px;
     }
     #mascote{
         width: 90%;
@@ -28,6 +32,7 @@ Grandes telas: acima de 1200px
     }
 }
 
+
 @media screen and (min-width: 992px) and (max-width: 1199px){
     #conteudo-principal{
         display: flex;
@@ -39,7 +44,7 @@ Grandes telas: acima de 1200px
         width: 80%;
     }
     #mascote > img{
-        width: 100%;
+        width: 50%;
         
     }
     #filho{
