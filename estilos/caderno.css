@@ -20,15 +20,14 @@
 }
 
 body{
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(245, 245, 245);
     width: 99.1vw;
     height: 100vh;
 }
 
 header{
     background-color: white;
-    
-    
+    padding: 20px 0px;
 }
 
 header > div{
@@ -49,8 +48,7 @@ header > div{
 }
 
 .logo{
-    width: 40px;
-    padding: 20px;
+    width: 30px;
 }
 
 
