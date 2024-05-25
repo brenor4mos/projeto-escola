@@ -27,9 +27,6 @@ window.addEventListener('scroll', () => {
     }
 })
 
-
-
-
 botaoUp.addEventListener('click', ()=> {
     window.scrollTo(0, screenTop)
 })
@@ -40,6 +37,7 @@ function mostrarConteudo(id) {
     const estrutura = document.querySelector("#conteudo");
     const iframe = document.querySelector("iframe");
     const botaoVoltar = document.querySelector("#voltar");
+    let footer = document.querySelector('footer');
 
     let materias = {
         portugues: `${url}lingua-portuguesa.html`,
@@ -59,12 +57,14 @@ function mostrarConteudo(id) {
     botaoVoltar.style.display = "block";
     iframe.style.display = "block";
     botaoUp.remove()
+    footer.style.display = "none"
     // TODO: Fazer com que o botão de up apareça depois que é acionado o iframe.
 
     botaoVoltar.addEventListener("click", () => {
         estrutura.style.display = "grid";
         botaoVoltar.style.display = "none"; // ? Volta ao normal 
         iframe.style.display = "none";
+        footer.style.display = "flex";
     });
 
     

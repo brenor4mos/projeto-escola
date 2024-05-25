@@ -30,7 +30,6 @@ Grandes telas: acima de 1200px
     }
 }
 
-
 * {
     padding: 0px;
     margin: 0px;
@@ -39,17 +38,17 @@ Grandes telas: acima de 1200px
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 3em;
     color: white;
 }
 
 
 
-body, html {
+body,
+html{
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(55deg, #0F006F, #00A0FA);
-    
+    background-color: #26afff;
 }
 
 
@@ -89,6 +88,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 0px;
 }
 
@@ -98,23 +98,36 @@ section {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    line-height: 60px;
+    line-height: 80px;
     margin-top: 60px;
-    margin-bottom: 10px;
 }
 
 section .conteiner_imagem>img {
-    width: 80%;
+    width: 60%;
     animation-name: introImagem;
     animation-duration: .7s;
 }
 
 section .filho {
-    padding: 20px;
+    padding: 30px;
+    border-radius: 50px;
 }
 
+section .filho > h1 > span{
+    /* color: #4b00fa; */
+    background-image: linear-gradient(to bottom, rgb(168, 71, 248) , #4b00fa);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+    font-weight: bolder;
+}
+
+
 section .filho p {
-    font-size: 1.3em;
+    
+
+    font-size: 1.5em;
     color: white;
 }
 
@@ -126,19 +139,34 @@ section .filho>a {
     text-decoration: none;
 }
 
-div.conteiner_redes{
+section .filho>a:hover{
+    background-color: #0000FA;
+    transition: .3s;
+}
+
+
+div.conteiner_redes {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    border-radius: 50px;
+
 }
 
-div.conteiner_redes > a  > img{
-    width: 35px;
-    width: 35px;
-    margin: 0px 15px;
+
+
+
+div.conteiner_redes>a> img {
+    width: 30px;
+    margin: 20px 30px 0px ;
+    transition: .3s;   
 }
 
+div.conteiner_redes>a>img:hover,
+svg:hover {
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.315));
+    transform: translate(-3px, -3px);
+}
 
 
 /* TODO: fazer com que o rodapé fique com os ícone das redes sociais */
