@@ -42,15 +42,15 @@ function mostrarConteudo(id) {
     let materias = {
         portugues: `${url}portugues/lingua-portuguesa.html`,
         matematica: `${url}matematica/matematica.html`,
-        geografia: `${url}geografia.html`,
+        geografia: `${url}geografia/geografia.html`,
         lideranca: `${url}lideranca.html`,
         fisica: `${url}fisica/fisica.html`,
         filosofia: `${url}filosofia.html`,
         oratoria: `${url}oratoria.html`,
-        educacao_financeira: `${url}educacao_financeira.html`,
+        educacao_financeira: `${url}educacao_financeira/educacao_financeira.html`,
         projeto_de_vida: `${url}projeto_de_vida.html`,
         historia: `${url}historia.html`,
-        geopolitica: `${url}geopolitica.html`
+        geopolitica: `${url}geopolitica/geopolitica.html`
     };
 
     estrutura.style.display = "none";
