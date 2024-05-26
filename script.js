@@ -40,11 +40,11 @@ function mostrarConteudo(id) {
     let footer = document.querySelector('footer');
 
     let materias = {
-        portugues: `${url}lingua-portuguesa.html`,
+        portugues: `${url}portugues/lingua-portuguesa.html`,
         matematica: `${url}matematica/matematica.html`,
         geografia: `${url}geografia.html`,
         lideranca: `${url}lideranca.html`,
-        fisica: `${url}fisica.html`,
+        fisica: `${url}fisica/fisica.html`,
         filosofia: `${url}filosofia.html`,
         oratoria: `${url}oratoria.html`,
         educacao_financeira: `${url}educacao_financeira.html`,
