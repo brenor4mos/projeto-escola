@@ -41,7 +41,7 @@ function mostrarConteudo(id) {
 
     let materias = {
         portugues: `${url}lingua-portuguesa.html`,
-        matematica: `${url}matematica.html`,
+        matematica: `${url}matematica/matematica.html`,
         geografia: `${url}geografia.html`,
         lideranca: `${url}lideranca.html`,
         fisica: `${url}fisica.html`,

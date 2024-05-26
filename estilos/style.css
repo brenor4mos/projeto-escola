@@ -65,7 +65,7 @@ header {
 }
 
 header>a>img {
-    width: 40px;
+    width: 35px;
 }
 
 header>menu>a {
@@ -99,7 +99,7 @@ section {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    line-height: 80px;
+    line-height: 70px;
     margin-top: 60px;
 }
 
