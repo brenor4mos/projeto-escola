@@ -125,7 +125,6 @@ section .filho > h1 > span{
 
 
 section .filho p {
-    
 
     font-size: 1.5em;
     color: white;
@@ -153,9 +152,6 @@ div.conteiner_redes {
 
 }
 
-
-
-
 div.conteiner_redes>a> img {
     width: 30px;
     margin: 20px 30px 0px ;
@@ -164,7 +160,7 @@ div.conteiner_redes>a> img {
 
 div.conteiner_redes>a>img:hover,
 svg:hover {
-    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.315));
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.315)) invert(100%);
     transform: translate(-3px, -3px);
 }
 
