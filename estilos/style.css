@@ -57,7 +57,6 @@ html{
 
 header {
     display: flex;
-    width: 100vw;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -65,7 +64,7 @@ header {
 }
 
 header>a>img {
-    width: 35px;
+    width: 30px;
 }
 
 header>menu>a {
@@ -90,7 +89,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px;
+    padding: 30px 0px;
 }
 
 section {
@@ -110,7 +109,7 @@ section .conteiner_imagem>img {
 }
 
 section .filho {
-    padding: 10px;
+    padding: 15px;
     border-radius: 50px;
 }
 
@@ -125,8 +124,7 @@ section .filho > h1 > span{
 
 
 section .filho p {
-
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: white;
 }
 
@@ -164,6 +162,52 @@ svg:hover {
     transform: translate(-3px, -3px);
 }
 
+.divmetade{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100%;
+}
+.divmetade > div{
+    max-width: 700px;
+}
+.divmetade > div > h2{
+    text-align: center;
+    margin: auto;
+    color: #7F3CF1;
+    font-size: 3em;
+    font-weight: 800;
+    padding-top: 20px;
+}
+.divmetade > div > p{
+    padding: 20px;
+    font-size: 20px;
+}
+.conteiner{
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.box{
+    max-width: 500px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.151);
+    border-radius: 15px;
+    margin: 20px;
+    line-height: 24px;
+    padding: 20px 20px;
+}
+.box > img {
+    width: 100%;
+}
+.box > p {
+    padding-top: 20px;
+}
 
 /* TODO: fazer com que o rodapé fique com os ícone das redes sociais */
 
@@ -174,8 +218,9 @@ footer {
     align-items: center;
     justify-content: center;
     color: white;
-    padding: 20px;
+    padding: 15px;
     font-size: 16px;
+    background-color: #000052;
 }
 
 footer p>a {
