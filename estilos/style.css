@@ -47,13 +47,10 @@ h1 {
 
 
 body,
-html{
+html {
     width: 100%;
     height: 100%;
-    background-image: url(../imagens/background.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 
 
@@ -66,6 +63,14 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 15px 0px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    margin-top: -1px;
+    -webkit-box-shadow: 0px 23px 36px -20px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 23px 36px -20px rgba(0,0,0,0.37);
+    box-shadow: 0px 23px 36px -20px rgba(0,0,0,0.37);
+    
 }
 
 header>a>img {
@@ -73,9 +78,10 @@ header>a>img {
 }
 
 header>menu>a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 15px;
+    font-weight: 300;
 }
 
 header>menu>a:hover {
@@ -94,7 +100,15 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px 0px;
+    padding-top: 130px ;
+    padding-bottom: 30px;
+    background-image: url(../imagens/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-shadow: inset 0px 23px 36px -10px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: inset 0px 23px 36px -20px rgba(0, 0, 0, 0.66);
+    box-shadow: inset 0px 23px 36px -20px rgba(0, 0, 0, 0.66);
 }
 
 section {
@@ -118,13 +132,13 @@ section .filho {
     border-radius: 50px;
 }
 
-section.filho > h1 {
+section.filho>h1 {
     animation-name: introImagem;
     animation-duration: 2s;
 }
 
-section .filho > h1 > span{
-    background-image: linear-gradient(to bottom, #7F3CF1 , #4b00fa);
+section .filho>h1>span {
+    background-image: linear-gradient(to bottom, #7F3CF1, #4b00fa);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -136,7 +150,7 @@ section .filho > h1 > span{
 section .filho p {
     font-size: 1.3em;
     color: white;
-    
+
 }
 
 section .filho>a {
@@ -145,10 +159,10 @@ section .filho>a {
     color: white;
     border-radius: 20px;
     text-decoration: none;
-    
+
 }
 
-section .filho>a:hover{
+section .filho>a:hover {
     background-color: #0000FA;
     transition: .3s;
 }
@@ -162,10 +176,10 @@ div.conteiner_redes {
 
 }
 
-div.conteiner_redes>a> img {
+div.conteiner_redes>a>img {
     width: 30px;
-    margin: 20px 30px 0px ;
-    transition: .3s;   
+    margin: 20px 30px 0px;
+    transition: .3s;
 }
 
 div.conteiner_redes>a>img:hover,
@@ -174,7 +188,7 @@ svg:hover {
     transform: translate(-3px, -3px);
 }
 
-.divmetade{
+.divmetade {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -183,10 +197,12 @@ svg:hover {
     width: 100%;
     padding: 40px 20px;
 }
-.divmetade > div{
+
+.divmetade>div {
     max-width: 700px;
 }
-.divmetade > div > h2{
+
+.divmetade>div>h2 {
     text-align: center;
     margin: auto;
     color: #7F3CF1;
@@ -194,15 +210,18 @@ svg:hover {
     font-weight: 800;
     padding-top: 20px;
 }
-.divmetade > div > p{
+
+.divmetade>div>p {
     padding: 20px;
     font-size: 20px;
 }
-.divmetade > div > p > strong{
+
+.divmetade>div>p>strong {
     color: rgb(81, 0, 128);
     font-weight: 800;
 }
-.conteiner{
+
+.conteiner {
     padding: 20px 0px;
     display: flex;
     flex-wrap: wrap;
@@ -211,34 +230,40 @@ svg:hover {
     background-color: #ffffff;
     text-align: justify;
 }
-.box{
+
+.box {
     max-width: 400px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.267);
     border-radius: 15px;
     margin: 20px;
     line-height: 26px;
-    padding: 20px; 
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    animation-name: introImagem ;
+    animation-name: introImagem;
     animation-duration: 2s;
 }
-.box > img {
-    width: 70%; 
+
+.box>img {
+    width: 70%;
 }
+
 .box h2 {
     color: blueviolet;
 }
-.box > p {
+
+.box>p {
     padding-top: 20px;
 }
+
 .box a {
     text-decoration: none;
     color: gray;
     font-size: 10px;
 }
+
 /* TODO: fazer com que o rodapé fique com os ícone das redes sociais */
 
 /* Rodapé */
