@@ -27,13 +27,23 @@ Grandes telas: acima de 1200px
 @media screen and (min-width: 992px) and (max-width: 1199px){
     #mascote{
         width: 70%;
-    }
+    } 
 }
 
 @media screen and (min-width: 1200px) {
     #mascote{
         width: 80%;
     }
+    section{
+        flex-direction:row-reverse;
+    }
+    main{
+        height: 70vh;
+    }
+    .divmetade > div > h2{
+        font-size: 3.2em;
+    }    
+
 }
 
 
