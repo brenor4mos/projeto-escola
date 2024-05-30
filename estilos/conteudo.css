@@ -27,9 +27,7 @@
 
 
 :root{
-    --fonte-padrao:"Quicksand", sans-serif;
-    --fonte-titulos: "Fenix", Arial,sans-serif;
-    --fonte-paragrafos: "Graphik" , serif ;
+    --fonte-padrao:"Graphik" , serif ;
 }
 
 *{
@@ -42,12 +40,30 @@
 body{
     background-color: #ffffff;
     line-height: 23.5px;
-
+    position: relative;
 }
 
+.botao{
+    display: block;
+    transform: rotate(180deg);
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 75vw;
+    top: 85vh;
+    border-radius: 50%;
+    border: none;
+    background-color: #ffffffa2;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 h1, h2, h3 {
-    font-family: var(--fonte-titulos);
-    font-weight: bold;
+    font-weight: 900;
     text-align: center;
 }
 span{
@@ -55,8 +71,8 @@ span{
     text-align: end;
 }
 p{
-    font-family: var(--fonte-paragrafos);
     text-indent: 10px;
+    font-weight: normal;
 }
 
 a {

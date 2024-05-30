@@ -64,7 +64,7 @@ main{
 
 #conteudo{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr ;
 }
 
 #conteudo > div{
