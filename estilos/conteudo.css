@@ -137,7 +137,10 @@ img{
     content:  'Material utilizado:' ;
 } 
 
-
+.conteiner_pesquisa{
+    color: red;
+    font-weight: normal;
+}
 
 div.video{
     margin: 0px -13px 30px -20px;

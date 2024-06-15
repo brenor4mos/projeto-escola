@@ -29,11 +29,11 @@ Grandes telas: acima de 1200px
     main{
         width: 80vw;
     }
-    #conteudo {
+    .conteudo {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    #conteudo > div{
+    .conteudo > div{
         width: 80%;
         height: 70%;
     }
@@ -43,11 +43,11 @@ Grandes telas: acima de 1200px
     main{
         width: 70vw;
     }
-    #conteudo {
+    .conteudo {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    #conteudo > div{
+    .conteudo > div{
         width: 85%;
     }
 }
@@ -56,11 +56,11 @@ Grandes telas: acima de 1200px
     main{
         width: 60vw;
     }
-    #conteudo {
+    .conteudo {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    #conteudo > div{
+    .conteudo > div{
         width: 80%;
     }
 }

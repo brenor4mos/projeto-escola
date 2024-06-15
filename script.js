@@ -20,21 +20,21 @@ let botaoUp = document.querySelector('#btnUp');
 
 
 window.addEventListener('scroll', () => {
-    if((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-            botaoUp.style.display = 'block'
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+        botaoUp.style.display = 'block'
     } else {
         botaoUp.style.display = 'none'
     }
 })
 
-botaoUp.addEventListener('click', ()=> {
+botaoUp.addEventListener('click', () => {
     window.scrollTo(0, screenTop)
 })
 
 
 // ! Função para encontrar o conteudo
 function mostrarConteudo(id) {
-    const estrutura = document.querySelector("#conteudo");
+    const estrutura = document.querySelector(".conteudo");
     const iframe = document.querySelector("iframe");
     const botaoVoltar = document.querySelector("#voltar");
     let footer = document.querySelector('footer');
@@ -67,7 +67,7 @@ function mostrarConteudo(id) {
         footer.style.display = "flex";
     });
 
-    
+
 
     return (iframe.src = materias[id]);
 }
@@ -94,4 +94,6 @@ adicionarHover(educacao_financeira, "pink");
 adicionarHover(projeto_de_vida, "magenta");
 adicionarHover(historia, "brown");
 adicionarHover(geopolitica, "#1ABC9C")
+
+
 
